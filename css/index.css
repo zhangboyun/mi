@@ -1,6 +1,6 @@
 header{height:40px; background-color:#333;}
 
-.container{width:1226px; margin:0 auto; border:1px solid red;}
+.container{width:1226px; margin:0 auto; /* border:1px solid red; */}
 header .header_1{float:left; margin-left:-8px;}
 header .header_1 li,header .header_2 li{position:relative; float:left; padding:0 9px; line-height:40px;}
 header .header_1 li a{color:#b0b0b0;}
@@ -28,9 +28,9 @@ nav .search{margin-top:25px; height:48px; width:50px; border:1px solid #a4b094; 
 /* nav结束*/
 .section_2{height:460px;}
 .section_2 .left,.banner{float:left; overflow:hidden;}
-.left{padding:20px 0; width:234px; background:#333; height:420px;}
-.left ul li{padding-left:30px; height:42px; line-height:42px; color:#fff; font-size:14px;}
-.left ul li:hover{background:#f60;}
+.section_2 .left{padding:20px 0; width:234px; background:#333; height:420px;}
+.section_2 .left ul li{padding-left:30px; height:42px; line-height:42px; color:#fff; font-size:14px;}
+.section_2 .left ul li:hover{background:#f60;}
 /*左侧ul结束*/
 .banner{position:relative; width:992px; height:460px; overflow:hidden;}
 .banner .wrap li{float:left; width:992px; height:460px;}
@@ -52,29 +52,77 @@ nav .search{margin-top:25px; height:48px; width:50px; border:1px solid #a4b094; 
 .star{margin-top:26px;}
 .star_h2{position:relative; height:58px;}
 .star .star_h2 .star_tip{position:absolute;}
-.star h2{height:58px; width:250px; line-height:58px; color:#333; font-size:22px;}
+.star h2{height:58px; width:250px; line-height:58px; color:#333; font-size:22px; font-weight:200;}
 .star .star_tip{right:0; top:50%; margin-top:-12px; width:70px; height:25px;}
 .star_tip a{float:left; width:24px; height:16px; padding:3px 5px; background:#b0b0b0;}
 .star_ul{height:340px; margin-right:-14px;}
 .star_ul ul li{margin-right: 14px; float:left; width:234px; height:300px; padding-top:39px; border-top:1px solid pink; text-align:center; background: #fafafa;}
-.star_ul ul li img{width:160px; height:160px; background-size:100% 100%; margin:0 auto 22px;}
-.star_ul ul li h3{margin:20 0 3px;}
+.star_ul ul li .a_img{display:block; width:160px; background-size:100% 100%; margin:0 auto 22px;}
+.star_ul ul li h3{margin:0 20px 3px;}
 .star_ul ul li h3 a{color:#000; font-size:14px; font-weight:400;}
-.star_ul ul li p{}
+.star_ul ul li .des{margin:0 20px 12px; height:18px; line-height:18px; color:#b0b0b0;}
+.star_ul ul li .price{color:#f60;}
 /* star结束 */
-.content{margin-top:40px; padding-top:60px; background:#f5f5f5;}
-.content_2_1 .content_h{height:58px; position:relative;}
-.content_2_1 .content_h h3{font-size:22px; font-weight:200;line-height:58px;}
-.content_2_1 .content_h span{position:absolute; height:48px; }
-.content_2_1 .content_h span a{font-size:16px; }
 
+.content{margin-top:40px; padding-top:60px; width:100%; background:#f5f5f5;}
+.contentMain .content_h{height:58px; position:relative;}
+.contentMain .content_h h3{font-size:22px; font-weight:200;line-height:58px;}
+.contentMain .content_h .more{position:absolute; height:48px; top:0; right:0;}
+.content_2_1 .content_h .more a{font-size:16px; color:#424242; height:58px; line-height:58px;}
+.more a span{margin-left:8px; display:inline-block; padding:4px; width:12px; height:12px; line-height:12px; vertical-align:-2px; background:#ccc; border-radius:100%;}
 
+.contentMain .left,.contentMain .right,.contentMain .right li{float:left;}
+.contentMain .left{width:234px; height:628px;}
+.contentMain .right{width:978px; margin-left:14px; background:#f5f5f5; position:relative;}
+.contentMain .right ul{width:992px; height:64px; margin-left:-14px;}
+.contentMain .right ul li{margin:0 0 14px 14px; background:#fff; width:194px; height:260px; padding:20px; transition:all 0 linear;}
+.contentMain .right ul li div{margin:0 auto 18px;}
+.contentMain .right ul li div a{display:block; text-align:center;}
+.contentMain .right ul li h3{margin:0 10px 2px; font-size:14px; font-weight:400; text-align:center;}
+.contentMain .right ul li h3 a{color:#424242;}
+ // .contentMain .right ul li:hover{margin-bottom:13px; box-shadow: 2px 0 2px #ccc;}
+.content_2_1 .right ul li .des{margin:0 10px 10px;}
+.content_2_1 .right ul li .price{margin:0 10px 14px;}
+/*以下是每个li中 p 的公共部分*/
+.desMain{height:18px; line-height:18px; color:#b0b0b0;}
+.priMain{ color:#f60; text-align:center;}
+/* 公共部分结束 */
 
+.content_2_2 .content_h .right_ul{margin:0; padding:16px 0 0; font-size:16px;}
+.content_2_2 .content_h .right_ul li{margin:0 0 0 30px; float:left; cursor:pointer; border-bottom:2px solid transparent}
+.content_2_2 .content_h .right_ul li:hover{color:#f60; border-bottom:2px solid #f60;}
+.content_2_2 .left li a{display:block; height:300px;}
+.content_2_2 .left ul .liT{margin-top:14px;}
+.content_2_2 .des{margin:0 10px;  text-align:center;}
+.content_2_2 .price{margin:0 10px 10px;}
 
+.content_2_3 .right .last{height:93px; padding:50px 0 0 0; width:234px; position:relative;}
+.content_2_3 .right .last .divImg{position:absolute; width:80px; height:80px; top:32px; right:20px;}
+.content_2_3 .right .last h4{margin:-10px 110px 5px 30px; font-size:14px; }
+.content_2_3 .right .last h4 a{ font-weight:300; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.content_2_3 .right .last p{margin:0 110px 0 30px; color:#f60;}
 
+/* 以下是hover效果 */
+.content_2_3 .right li{position:relative;}
+.content_2_3 .right li:hover .hoverDiv {height:74px; opacity:1}
+.content_2_3 .hoverDiv{position:absolute; width:234px; bottom:-14px; left:0; background:#f60; font-size:12px; opacity:0; height:0; transition:all .2s linear;}
+.content_2_3 .hoverDiv a{display:block; padding:8px 30px; }
+.content_2_3 .hoverDiv a span{display:block; margin-bottom:5px; color:#fff;}
+.content_2_3 .hoverDiv a .per{color:rgba(255,255,255,.6);}
 
+// .starDown_ul{width: 1240px; height:420px;}
+.starDown_ul>ul{margin-left:-14px;}
+.starDown_ul>ul>li{float:left; position:relative; margin:0 0 14px 14px; width: 296px; height:374px; padding:54px 0 0; border-top:1px solid #e0e0e0;background:#fff;}
+.bigLi h3{margin:0 10px 18px; font-size:16px; font-weight: 400; text-align:center; color:#f60;}
+.bigLi .ulContent{height:340px;}
+.bigLi .ulContent h4{margin:0 20px 5px; font-size:20px; font-weight:400px; line-height:1.25; white-space:nowrap; text-overflow:ellipsis; text-align:center;}
+.bigLi .ulContent a{color:#000;}
+.bigLi .ulContent p{margin:0 48px 10px; height:40px; line-height:20px; text-align:center; overflow:hidden; color:#b0b0b0;}
+.bigLi .ulContent p a{color:#b0b0b0;}
+.bigLi .ulContent .boxImg{display:block; width: 200px; height:142px; margin:0 auto;}
 
-
+.bigLi .downTip{position:absolute; left:0; bottom:15px;}
+.bigLi .downTip li{display:inline-block; width:10px; height:10px; margin:10px; border-radius:100%; background:#ccc;}
 
 
 
