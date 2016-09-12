@@ -1,37 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/index.css" >
-    </head>
-    <body>
-      <header>
-        <div class="container">
-          <ul class='header_1 clearfix'>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/iconfont.css"/>
+    <script type="text/javascript" charset="utf-8">
+        var oUl=document.getElementsByClassName('navDiv');
+        for(var i= 0;i<oUl.length;i++){
+            oUl[i].style.width=document.documentElement.clientWidth||document.body.clientWidth;
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <ul class='header_1 clearfix'>
             <li><a href="javascript:;">小米商城</a></li>
             <li><a href="">MIUI</a></li>
             <li><a href="">米聊</a></li>
             <li><a href="">游戏</a></li>
             <li><a href="">米聊</a></li>
             <li class='last'><a href="">小米移动版</a></li>
-          </ul>
-            <a class='car' href="">购物车(0)</a>
-          <ul class="header_2 clearfix">
+        </ul>
+        <a class='car' href="">购物车(0)</a>
+        <div class="car-menu">购物车中还没有商品呢，赶紧选购把</div>
+        <ul class="header_2 clearfix">
             <li><a href="">消息</a></li>
             <li><a href="">登录</a></li>
             <li class='last'><a href="">注册</a></li>
-          </ul>
-
-        </div> </header>
-      <!-- header结束 -->
-      <nav class="clearfix">
-        <div class="container">
-          <h1><a href=""></a></h1>
-          <ul class='nav_ul' id='navUl'>
+        </ul>
+    </div>
+</header>
+<!-- header结束 -->
+<nav class="clearfix" id="nav">
+    <div class="container clearfix">
+        <h1><a href=""></a></h1>
+        <ul class='nav_ul' id='navUl'>
             <li>小米手机
+                <div class="nav_ul_div clearfix navDiv">
+                    <ul class='nav_ul_ul clearfix'>
+                                <li>
+                                    <div class='phone'>
+                                        <a href="">
+                                            <img src="img/phone.jpg" alt="" width="160" height='110'>
+                                        </a>
+                                    </div>
+                                    <span class='name'>小米手机MAX</span>
+                                    <span class='price'>1499元起</span>
+                                </li>
+                                <li>
+                                    <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                    </div>
+                                    <span class='name'>小米手机MAX</span>
+                                    <span class='price'>1499元起</span>
+                                </li>
+                                <li>
+                                    <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                    </div>
+                                    <span class='name'>小米手机MAX</span>
+                                    <span class='price'>1499元起</span>
+                                </li>
+                                <li>
+                                    <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                    </div>
+                                    <span class='name'>小米手机MAX</span>
+                                    <span class='price'>1499元起</span>
+                                </li>
+                                <li>
+                                    <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                    </div>
+                                    <span class='name'>小米手机MAX</span>
+                                    <span class='price'>1499元起</span>
+                                </li>
+                                <li class="last">
+                                    <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                    </div>
+                                    <span class='name'>小米手机MAX</span>
+                                    <span class='price'>1499元起</span>
+                                </li>
+                    </ul>
+                    <!-- <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>-->
+                </div>
             </li>
-            <li>红米</li>
+            <li>红米
+                <div class="nav_ul_div clearfix navDiv">
+                    <ul class='nav_ul_ul clearfix'>
+                        <li>
+                            <div class='phone'>
+                                <a href="">
+                                    <img src="img/phone.jpg" alt="" width="160" height='110'>
+                                </a>
+                            </div>
+                            <span class='name'>小米手机MAX</span>
+                            <span class='price'>1499元起</span>
+                        </li>
+                        <li>
+                            <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                            </div>
+                            <span class='name'>小米手机MAX</span>
+                            <span class='price'>1499元起</span>
+                        </li>
+                        <li>
+                            <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                            </div>
+                            <span class='name'>小米手机MAX</span>
+                            <span class='price'>1499元起</span>
+                        </li>
+                        <li>
+                            <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                            </div>
+                            <span class='name'>小米手机MAX</span>
+                            <span class='price'>1499元起</span>
+                        </li>
+                        <li>
+                            <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                            </div>
+                            <span class='name'>小米手机MAX</span>
+                            <span class='price'>1499元起</span>
+                        </li>
+                        <li class="last">
+                            <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                            </div>
+                            <span class='name'>小米手机MAX</span>
+                            <span class='price'>1499元起</span>
+                        </li>
+                    </ul>
+                    <!-- <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>
+                     <li class='nav_ul_ul'>
+                         <div class='container clearfix'>
+                             <ul>
+                                 <li>
+                                     <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a>
+                                     </div>
+                                     <span class='name'>小米手机MAX</span>
+                                     <span class='price'>1499元起</span>
+                                 </li>
+                                 <li></li>
+
+                                 <li></li>
+                             </ul>
+                         </div>
+                     </li>-->
+                </div>
+            </li>
             <li>平板·笔记本</li>
             <li>小米手机</li>
             <li>红米</li>
@@ -39,633 +394,1176 @@
             <li>红米</li>
             <li>平板</li>
             <li>红米</li>
-          </ul>
-          <span class='search'><a href=""></a></span>
-          <div class='nav_div clearfix'>
-          <form action="">
-          <input type="text"/>
-          <a href="" class='nav_a_1'>红米Note4</a>
-          <a href="" class="nav_a_2">小米笔记本Air</a>
-          </form>
-          </div>
+        </ul>
+        <span class='search'><i class="icon iconfont">&#xe601;</i></span>
+        <div class='nav_div clearfix'>
+            <form action="">
+                <input type="text"/>
+                <a href="" class='nav_a_1'>红米Note4</a>
+                <a href="" class="nav_a_2">小米笔记本Air</a>
+            </form>
         </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div><div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div>
-        <div class='nav_ul_ul'>
-          <div class='container clearfix'>
-            <ul>
-             <li>
-              <div class='phone'><a href=""><img src="img/phone.jpg" alt="" width="160" height='110'></a></div>
-              <span class='name'>小米手机MAX</span>
-              <span class='price'>1499元起</span>
-             </li>
-             <li></li>
-             
-             <li></li>
-           </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- nav结束 -->
-      <div class='container'>
-      <section class="section_2">
+    </div>
+
+</nav>
+<!-- nav结束 -->
+<div class='container'>
+    <section class="section_2">
         <div class='left clearfix'>
-          <ul>
-            <li>手机&nbsp电话卡
-              <div class='left_info'>
-                <ul>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                      
-                    </a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </li>
-            <li>笔记本&nbsp平板
-              <div class='left_info'>
-                <ul>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                      
-                    </a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </li>
-            <li>电视&nbsp盒子 </li>
-            <li>手机&nbsp电话卡 </li>
-            <li>手机&nbsp电话卡 </li>
-            <li>手机&nbsp电话卡 </li>
-            <li>手机&nbsp电话卡 </li>
-            <li>手机&nbsp电话卡 </li>
-            <li>手机&nbsp电话卡 </li>
-            <li>手机&nbsp电话卡
-                 <div class='left_info'>
-                <ul>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" class='info'>
-                      <img src="img/hover.jpg" alt="" width="40" height='40'>
-                      <span class='tel' href="">小米手机5</span>
-                      
-                    </a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-             </li>
-          </ul>
+            <ul>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>笔记本&nbsp平板
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>电视&nbsp盒子
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机&nbsp电话卡
+                    <div class='left_info'>
+                        <ul>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class='info'>
+                                    <img src="img/hover.jpg" alt="" width="40" height='40'>
+                                    <span class='tel' href="">小米手机5</span>
+                                    <span class="buy">选购</span>
+                                </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </div>
         <div class='banner clearfix'>
             <ul class='wrap'>
-              <li class='banner_wrap_1'></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+                <li class='banner_wrap_1'></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
             <ul class='tip'>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
             <a href="" class='tipL'></a>
             <a href="" class='tipR'></a>
-        </div></section>
-      <section class='div4 clearfix'>
+        </div>
+    </section>
+    <section class='div4 clearfix'>
         <div class='span6'>
-         <ul>
-          <li>
-            <a href="" class='bottom'>
-              <span></span>
-              选购手机
-            </a>
-          </li>
-          <li class='left bottom'>
-            <a href="">
-              <span></span>
-              选购手机
-            </a>
-          </li>
-          <li class='left bottom'>
-            <a href="">
-              <span></span>
-              选购手机
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span></span>
-              选购手机
-            </a>
-          </li>
-          <li class='left'>
-            <a href="">
-              <span></span>
-              选购手机
-            </a>
-          </li>
-          <li class='left'>
-            <a href="">
-              <span></span>
-              选购手机
-            </a>
-          </li>
-          
-         </ul>
+            <ul>
+                <li>
+                    <a href="" class='bottom'>
+                        <span></span>
+                        选购手机
+                    </a>
+                </li>
+                <li class='left bottom'>
+                    <a href="">
+                        <span></span>
+                        选购手机
+                    </a>
+                </li>
+                <li class='left bottom'>
+                    <a href="">
+                        <span></span>
+                        选购手机
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span></span>
+                        选购手机
+                    </a>
+                </li>
+                <li class='left'>
+                    <a href="">
+                        <span></span>
+                        选购手机
+                    </a>
+                </li>
+                <li class='left'>
+                    <a href="">
+                        <span></span>
+                        选购手机
+                    </a>
+                </li>
+
+            </ul>
         </div>
         <ul class='div4_ul'>
-          <li></li>
-          <li></li>
-          <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
-        </section>
-      <section class='star clearfix'>
-          <div class='star_h2'>
+    </section>
+    <section class='star clearfix'>
+        <div class='star_h2'>
             <h2>小米明星单品</h2>
             <div class='star_tip'>
-              <a href="" class='star_tipL'></a>
-              <a href="" class='star_tipR'></a>
+                <a href="" class='star_tipL'><i class="icon iconfont">&#xe607;</i></a>
+                <a href="" class='star_tipR'><i class="icon iconfont">&#xe60c;</i></a>
             </div>
-          </div>
-          <div class='star_ul'>
+        </div>
+        <div class='star_ul'>
             <ul>
-              <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-              </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
+                <li>
+                    <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                    <h3><a href="">小米手机5高配版</a></h3>
+
+                    <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                    <p class='price'>1999元</p>
+                </li>
+                <li>
+                    <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                    <h3><a href="">小米手机5高配版</a></h3>
+
+                    <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                    <p class='price'>1999元</p>
+                </li>
+                <li>
+                    <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                    <h3><a href="">小米手机5高配版</a></h3>
+
+                    <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                    <p class='price'>1999元</p>
+                </li>
+                <li>
+                    <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                    <h3><a href="">小米手机5高配版</a></h3>
+
+                    <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                    <p class='price'>1999元</p>
+                </li>
+                <li>
+                    <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                    <h3><a href="">小米手机5高配版</a></h3>
+
+                    <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                    <p class='price'>1999元</p>
+                </li>
             </ul>
-          </div></section>
-      </div>
-      <section class='content clearfix'>
-        <div class='container clearfix'>
-          <div class='content_2_1 contentMain clearfix'>
+        </div>
+    </section>
+</div>
+<section class='content clearfix'>
+    <div class='container clearfix'>
+        <div class='content_2_1 contentMain clearfix'>
             <div class='content_h'>
-              <h3>智能硬件</h3>
-              <div class='more'><a href="">查看全部<span></span></a></div>
+                <h3>智能硬件</h3>
+
+                <div class='more'><a href="">查看全部<span></span></a></div>
             </div>
             <div class='left'><img src="img/content_left.jpg" alt=""></div>
             <div class='right clearfix'>
-              <ul>
-                <li>
-                  <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a></div>
-                  <h3><a href="">小米手机5高配版</a></h3>
-                  <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
-                  <p class='price priMain'>1999元</p>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+                <ul>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des desMain'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price priMain'>1999元</p>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class='content_2_2 contentMain clearfix'>
+        </div>
+        <div class='content_2_2 contentMain clearfix'>
             <div class='content_h'>
-              <h3>智能硬件</h3>
-              <div class='more'>
-              <ul class='right_ul'>
-                <li>热门</li>
-                <li>耳机音箱</li>
-                <li>电源</li>
-                <li>电源</li>
-              </ul>
-              </div>
+                <h3>智能硬件</h3>
+
+                <div class='more'>
+                    <ul class='right_ul'>
+                        <li>热门</li>
+                        <li>耳机音箱</li>
+                        <li>电源</li>
+                        <li>电源</li>
+                    </ul>
+                </div>
             </div>
             <div class='left'>
                 <ul>
-                  <li><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a></li>
-                  <li class='liT'><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a></li>
+                    <li><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a></li>
+                    <li class='liT'><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a>
+                    </li>
                 </ul>
             </div>
             <div class='right clearfix'>
-              <ul>
-                <li>
-                  <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a></div>
-                  <h3><a href="">小米手机5高配版</a></h3>
-                  <p class='price priMain'>1999元</p>
-                  <p class='des desMain'>1000人评价</p>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <ul>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
 
-              </ul>
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class='content_2_2 content_2_3 contentMain clearfix'>
+        </div>
+        <div class='content_2_2 content_2_3 contentMain clearfix'>
             <div class='content_h'>
-              <h3>智能硬件</h3>
-              <div class='more'>
-              <ul class='right_ul'>
-                <li>热门</li>
-                <li>耳机音箱</li>
-                <li>电源</li>
-                <li>电源</li>
-              </ul>
-              </div>
+                <h3>智能硬件</h3>
+
+                <div class='more'>
+                    <ul class='right_ul'>
+                        <li>热门</li>
+                        <li>耳机音箱</li>
+                        <li>电源</li>
+                        <li>电源</li>
+                    </ul>
+                </div>
             </div>
             <div class='left'>
                 <ul>
-                  <li><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a></li>
-                  <li class='liT'><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a></li>
+                    <li><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a></li>
+                    <li class='liT'><a href=""><img src="img/content_2_2_left.jpg" alt="" width="234" height='300'></a>
+                    </li>
                 </ul>
             </div>
             <div class='right clearfix'>
-              <ul>
-                <li>
-                  <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a></div>
-                  <h3><a href="">小米手机5高配版</a></h3>
-                  <p class='price priMain'>1999元</p>
-                  <p class='des desMain'>1000人评价</p>
-                  <!-- 以下是hover效果 -->
-                  <div class='hoverDiv'>
-                    <a href="">
-                      <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
-                      <span class='per'> 来自于 比较低调的米粉 的评价 </span>
-                    </a>
-                  </div>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li class='top last'>
-                  <div>
-                       <div class='divImg'><a href=""><img src="img/content_2_3.jpg" alt="" width='80' height='80'></a></div>
-                       <h4><a href="">小米2红米2A能量套</a></h4>
-                       <p>1999元</p>
-                    </div>
-                </li>
-                <li class='down last'>
-                       <div>
-                       <div class='divImg'><a href=""><img src="img/content_2_3.jpg" alt="" width="80" height="80"></a></div>
-                       <h4><a href="">小米2红米2A能量套</a></h4>
-                       <p>1999元</p>
-                    </div>
-                </li>
+                <ul>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
 
-              </ul>
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href=""><img src="img/content_right.jpg" alt="" title='' width="160" height='160'></a>
+                        </div>
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='price priMain'>1999元</p>
+
+                        <p class='des desMain'>1000人评价</p>
+                        <!-- 以下是hover效果 -->
+                        <div class='hoverDiv'>
+                            <a href="">
+                                <span>循环再利用，再也不用担心电池消耗快的问题了，想用就用...</span>
+                                <span class='per'> 来自于 比较低调的米粉 的评价 </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class='top last'>
+                        <div>
+                            <div class='divImg'><a href=""><img src="img/content_2_3.jpg" alt="" width='80' height='80'></a>
+                            </div>
+                            <h4><a href="">小米2红米2A能量套</a></h4>
+
+                            <p>1999元</p>
+                        </div>
+                    </li>
+                    <li class='down last'>
+                        <div>
+                            <div class='divImg'><a href=""><img src="img/content_2_3.jpg" alt="" width="80" height="80"></a>
+                            </div>
+                            <h4><a href="">小米2红米2A能量套</a></h4>
+
+                            <p>1999元</p>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
-          </div>
-          <div class='star clearfix'>
+        </div>
+        <div class='star clearfix'>
             <div class='star_h2'>
-            <h2>小米明星单品</h2>
-            <div class='star_tip'>
-              <a href="" class='star_tipL'></a>
-              <a href="" class='star_tipR'></a>
-            </div>
+                <h2>小米明星单品</h2>
+
+                <div class='star_tip'>
+                    <a href="" class='star_tipL'></a>
+                    <a href="" class='star_tipR'></a>
+                </div>
             </div>
             <div class='star_ul'>
-            <ul>
-              <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-              </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-             <li>
-                <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
-                <h3><a href="">小米手机5高配版</a></h3>
-                <p class='des'>3GB内存＋64GB容量，玻璃版</p>
-                <p class='price'>1999元</p>
-             </li>
-            </ul>
+                <ul>
+                    <li>
+                        <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price'>1999元</p>
+                    </li>
+                    <li>
+                        <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price'>1999元</p>
+                    </li>
+                    <li>
+                        <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price'>1999元</p>
+                    </li>
+                    <li>
+                        <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price'>1999元</p>
+                    </li>
+                    <li>
+                        <a class='a_img' href=""><img src="img/star_1.jpg" alt="" title='' width="160" height='160'></a>
+
+                        <h3><a href="">小米手机5高配版</a></h3>
+
+                        <p class='des'>3GB内存＋64GB容量，玻璃版</p>
+
+                        <p class='price'>1999元</p>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class='contentMain star starDown clearfix'>
+        </div>
+        <div class='contentMain star starDown clearfix'>
             <div class='content_h'>
-            <h3>内容</h3>
+                <h3>内容</h3>
             </div>
             <div class='starDown_ul clearfix'>
                 <ul class='bigLi clearfix'>
-                  <li>
-                    <h3>图书</h3>
-                    <div class='ulContent'>
-                      <h4><a href="">哈利·波特与魔法石</a></h4>
-                      <p><a href="">哈利波特来了！</a></p>
-                      <a href="" class='boxImg'><img src="img/book.jpg" alt=""></a>
-                    </div>
-                    <div class='downTip clearfix'>
-                      <ul class='tipUl'>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                    </div>
-                    <a class="boxL" href=""></a>
-                    <a class='boxR' href=""></a>
-                  </li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                    <li>
+                        <h3>图书</h3>
+
+                        <div class='ulContent'>
+                            <h4><a href="">哈利·波特与魔法石</a></h4>
+
+                            <p><a href="">哈利波特来了！</a></p>
+                            <a href="" class='boxImg'><img src="img/book.jpg" alt=""></a>
+                        </div>
+                        <div class='downTip clearfix'>
+                            <ul class='tipUl'>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <a class="boxL" href=""></a>
+                        <a class='boxR' href=""></a>
+                    </li>
+                    <li>
+                        <h3>图书</h3>
+
+                        <div class='ulContent'>
+                            <h4><a href="">哈利·波特与魔法石</a></h4>
+
+                            <p><a href="">哈利波特来了！</a></p>
+                            <a href="" class='boxImg'><img src="img/book.jpg" alt=""></a>
+                        </div>
+                        <div class='downTip clearfix'>
+                            <ul class='tipUl'>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <a class="boxL" href=""></a>
+                        <a class='boxR' href=""></a>
+                    </li>
+                    <li>
+                        <h3>图书</h3>
+
+                        <div class='ulContent'>
+                            <h4><a href="">哈利·波特与魔法石</a></h4>
+
+                            <p><a href="">哈利波特来了！</a></p>
+                            <a href="" class='boxImg'><img src="img/book.jpg" alt=""></a>
+                        </div>
+                        <div class='downTip clearfix'>
+                            <ul class='tipUl'>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <a class="boxL" href=""></a>
+                        <a class='boxR' href=""></a>
+                    </li>
+                    <li>
+                        <h3>图书</h3>
+
+                        <div class='ulContent'>
+                            <h4><a href="">哈利·波特与魔法石</a></h4>
+
+                            <p><a href="">哈利波特来了！</a></p>
+                            <a href="" class='boxImg'><img src="img/book.jpg" alt=""></a>
+                        </div>
+                        <div class='downTip clearfix'>
+                            <ul class='tipUl'>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <a class="boxL" href=""></a>
+                        <a class='boxR' href=""></a>
+                    </li>
                 </ul>
             </div>
-          </div>
-          <div class='contentMain video clearfix'>
-            <div class='content_h'>
-            <h3>视频</h3>
-            </div>
-              <ul class='videoUl'>
-                <li>
-                  <div class='videoBox'>
-                   <img src="img/videoImg.jpg" alt="" width="296" height='180'/>
-                    <span></span>
-                  </div>
-                  <h4>红米年度品牌视频</h4>
-                  <p>一亿人喜爱你，是一种责任。</p>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-          </div>
         </div>
-      </section>
-      <footer class='footer_1'>
-        <div class='container'>
-          <div class='footBox clearfix'>
-            <ul>
-              <li>1小时快修服务</li>
-              <li>1小时快修服务</li>
-              <li>1小时快修服务</li>
-              <li>1小时快修服务</li>
-              <li class='last'>1小时快修服务</li>
+        <div class='contentMain video clearfix'>
+            <div class='content_h'>
+                <h3>视频</h3>
+            </div>
+            <ul class='videoUl'>
+                <li>
+                    <div class='videoBox'>
+                        <img src="img/videoImg.jpg" alt="" width="296" height='180'/>
+                        <span></span>
+                    </div>
+                    <h4>红米年度品牌视频</h4>
+
+                    <p>一亿人喜爱你，是一种责任。</p>
+                </li>
+                <li>
+                    <div class='videoBox'>
+                        <img src="img/videoImg.jpg" alt="" width="296" height='180'/>
+                        <span></span>
+                    </div>
+                    <h4>红米年度品牌视频</h4>
+
+                    <p>一亿人喜爱你，是一种责任。</p>
+                </li>
+                <li>
+                    <div class='videoBox'>
+                        <img src="img/videoImg.jpg" alt="" width="296" height='180'/>
+                        <span></span>
+                    </div>
+                    <h4>红米年度品牌视频</h4>
+
+                    <p>一亿人喜爱你，是一种责任。</p>
+                </li>
+                <li>
+                    <div class='videoBox'>
+                        <img src="img/videoImg.jpg" alt="" width="296" height='180'/>
+                        <span></span>
+                    </div>
+                    <h4>红米年度品牌视频</h4>
+
+                    <p>一亿人喜爱你，是一种责任。</p>
+                </li>
             </ul>
-          </div>
-          <div class='footBox_2 clearfix'>
+        </div>
+    </div>
+</section>
+<footer class='footer_1'>
+    <div class='container'>
+        <div class='footBox clearfix'>
+            <ul>
+                <li>1小时快修服务</li>
+                <li>1小时快修服务</li>
+                <li>1小时快修服务</li>
+                <li>1小时快修服务</li>
+                <li class='last'>1小时快修服务</li>
+            </ul>
+        </div>
+        <div class='footBox_2 clearfix'>
             <dl>
-              <dt>帮助中心</dt>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
             </dl>
             <dl>
-              <dt>帮助中心</dt>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
             </dl>
             <dl>
-              <dt>帮助中心</dt>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
             </dl>
             <dl>
-              <dt>帮助中心</dt>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
             </dl>
             <dl>
-              <dt>帮助中心</dt>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
             </dl>
             <dl>
-              <dt>帮助中心</dt>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
-              <dd>账户管理</dd>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
+                <dd>账户管理</dd>
             </dl>
             <div class='dlLeft'>
-              <p class='tel'>400-100-5678</p>
-              <p class='info'>
-                <span>周一至周日</span>
-                <span>周一至周日</span>
-              </p>
-              <a href="">24小时在线客服</a>
+                <p class='tel'>400-100-5678</p>
+
+                <p class='info'>
+                    <span>周一至周日</span>
+                    <span>周一至周日</span>
+                </p>
+                <a href="">24小时在线客服</a>
             </div>
-          </div>
         </div>
-      </footer>
-      <footer class='footer_2'>
-        <div class='container clearfix'>
-          <div class="footLogin"></div>
-          <div class="footInfo">
+    </div>
+</footer>
+<footer class='footer_2'>
+    <div class='container clearfix'>
+        <div class="footLogin"></div>
+        <div class="footInfo">
             <p class="sites">
                 <a href="">小米网</a>
                 <span class="sep">|</span>
@@ -691,6 +1589,7 @@
                 <span class="sep">|</span>
                 <a href="">小米网</a>
             </p>
+
             <p>
                 ©
                 <a href="">mi.com</a>
@@ -702,13 +1601,14 @@
             </p>
         </div>
         <div class="info_img">
-          <img src="img/footl.png" alt="" width="83" height='28'>
-          <img src="img/footl.png" alt="" width="83" height='28'>
-          <img src="img/footl.png" alt="" width="83" height='28'>
-          <img src="img/footl.png" alt="" width="83" height='28'>
+            <img src="img/footl.png" alt="" width="83" height='28'>
+            <img src="img/footl.png" alt="" width="83" height='28'>
+            <img src="img/footl.png" alt="" width="83" height='28'>
+            <img src="img/footl.png" alt="" width="83" height='28'>
         </div>
-        </div>
-      </footer>  
-    </body>
+    </div>
+</footer>
+</body>
 </html>
+
 
